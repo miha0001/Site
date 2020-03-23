@@ -1,0 +1,429 @@
+p {
+  margin: auto;
+}
+
+.all_dani {
+  z-index: 1;
+  position: absolute;
+  top: 87.3%;
+  left: 63%;
+  width: 342px;
+  height: 200px;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+@media (min-width: 1500px) {
+  .all_dani {
+    position: relative;
+    bottom: 235px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .all_dani {
+    position: relative;
+    bottom: 243px;
+    left: 930px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contacts,
+  .first_number,
+  .second_number,
+  .schedule_job {
+    position: relative;
+  }
+}
+
+@media (min-width: 4100px) {
+  .second_number,
+  .schedule_job {
+    display: none;
+  }
+}
+
+@media (min-width: 4100px) {
+  .contacts,
+  .first_number {
+    position: relative;
+    bottom: 10px;
+  }
+}
+
+.button {
+  background: #fff;
+  padding: 13px;
+  height: 3px;
+  border: 1px solid #2196f3;
+  border-radius: 50px;
+  position: absolute;
+  left: 84%;
+  top: 84.5%;
+  z-index: 1;
+}
+
+.button:hover {
+  border: none;
+  background-color: rgb(11, 178, 255);
+}
+
+@media (min-width: 1500px) {
+  .button_position {
+    position: relative;
+    bottom: 451px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .button_position {
+    position: relative;
+    bottom: 459px;
+    left: 60px;
+  }
+}
+
+.text_weight {
+  font-weight: 650;
+}
+
+.adress {
+  font-weight: 650;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.street {
+  padding-left: 25px;
+}
+
+.country {
+  padding-left: 25px;
+}
+
+.contacts {
+  font-weight: 650;
+  padding-top: 8px;
+  padding-left: 25px;
+}
+
+.first_number {
+  padding-left: 25px;
+  font-weight: 650;
+}
+
+.second_number {
+  padding-left: 25px;
+  font-weight: 650;
+}
+
+.schedule_job {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.secondary_info {
+  display: flex;
+  position: absolute;
+  top: 120%;
+  left: 28%;
+}
+
+@media (min-width: 1500px) {
+  .secondary_info {
+    position: relative;
+    bottom: 225px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .reviews {
+    position: relative;
+    right: 60px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .doctors {
+    position: relative;
+    right: 160px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .services {
+    position: relative;
+    right: 260px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .reviews {
+    position: relative;
+    right: 40px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .doctors {
+    position: relative;
+    right: 120px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .services {
+    position: relative;
+    right: 190px;
+  }
+}
+
+.secondary_info p {
+  padding-left: 30px;
+}
+
+.link_position a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  top: 615px;
+  left: 865px;
+}
+
+@media (min-width: 1500px) {
+  .link_position {
+    position: relative;
+    bottom: 860px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .link_position {
+    position: relative;
+    bottom: 872px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .gps_position {
+    position: relative;
+    bottom: 1000px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .gps_position {
+    position: relative;
+    bottom: 140px;
+  }
+}
+
+
+@media (min-width: 3100px) {
+  .gps_position {
+    position: relative;
+    bottom: 1000px;
+    left: 27px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .gps_position {
+    position: relative;
+    bottom: 1020px;
+    left: 117px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .all_dani {
+    position: relative;
+    top: 400px;
+  }
+
+  .button_position {
+    position: relative;
+    top: 185px;
+  }
+
+  .link_position {
+    position: relative;
+    bottom: 200px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .all_dani {
+    /* display: none; */
+    position: relative;
+    top: 368px;
+    left: 780px;
+  }
+
+  .button_position {
+    position: relative;
+    top: 150px;
+    right: 80px;
+  }
+
+  .link_position {
+    position: relative;
+    bottom: 230px;
+    right: 70px;
+  }
+
+  .gps_position {
+    position: relative;
+    bottom: 369px;
+    right: 60px;
+    z-index: 1;
+  }
+
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 70px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 150px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 1100px) {
+  .all_dani {
+    display: none;
+  }
+
+  .button_position {
+    display: none;
+  }
+
+  .link_position {
+    display: none;
+  }
+
+  .gps_position {
+    display: none;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 250px;
+    right: 82px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 320px;
+    right: 82px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 120px;
+    right: 82px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 210px;
+    right: 82px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 170px;
+    right: 56px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .reviews,
+  .doctors,
+  .services {
+    position: relative;
+    top: 250px;
+    right: 56px;
+    left: -45px;
+  }
+}
+
+.link_here {
+  border: 1px solid rgb(11, 178, 255);
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.link_here:hover {
+  background-color: rgb(11, 178, 255);
+  color: white;
+}
+
+.link_about {
+  margin-left: 10px;
+  border: 1px solid rgb(11, 178, 255);
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.link_about:hover {
+  background-color: rgb(11, 178, 255);
+  color: white;
+}
+
+.link_photo {
+  margin-left: 10px;
+  border: 1px solid rgb(11, 178, 255);
+  border-radius: 50px;
+  padding: 5px;
+}
+
+.link_photo:hover {
+  background-color: rgb(11, 178, 255);
+  color: white;
+}
+
+.link_gps {
+  padding: 15px;
+  border: 1px solid rgb(11, 178, 255);
+  margin-left: 10px;
+  border-radius: 50px;
+  position: absolute;
+  top: 728px;
+  left: 1143px;
+}
+
+.link_gps:hover {
+  background-color: rgb(11, 178, 255);
+  color: white;
+}

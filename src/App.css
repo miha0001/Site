@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(238, 229, 233);
+}
+
+/* .app-wrapper{
+    background-color: black;
+} */
+
+.mai{
+    /* background-color: red; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 1350px;
+}
+
+/* @media (min-width: 1200px) and (max-width: 1300px) {
+    body{
+        width: 1300px;
+        
+    }
+} */

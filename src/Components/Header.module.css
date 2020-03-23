@@ -1,0 +1,203 @@
+.logo {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(251, 249, 249);
+  margin: 5px;
+  margin-left: 50px;
+}
+
+.logo_text {
+  position: relative;
+  left: 25px;
+  top: 10px;
+}
+
+.input_settings {
+  position: relative;
+  left: 290px;
+  bottom: 47px;
+  width: 550px;
+  height: 34px;
+  border: 1px solid grey;
+  background: #e1e1e1;
+  border-radius: 10px;
+
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  background: transparent;
+  padding-left: 20px;
+}
+
+.input_settings:focus {
+  color: #777;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0);
+}
+
+.links a.active {
+  text-decoration: none;
+  color: green;
+}
+
+.button_settings {
+  width: 34px;
+  height: 36px;
+  border: 0px solid grey;
+  border-radius: 10px;
+  outline: none;
+  background-color: white;
+
+  position: relative;
+  bottom: 34px;
+  left: 255px;
+}
+
+.button_settings:hover {
+  background-color: rgb(78, 209, 154);
+}
+
+@media (min-width: 1500px) {
+  .button_settings {
+    position: relative;
+    bottom: 35px;
+  }
+}
+
+@media (min-width: 2100px) and (max-width: 3000px) {
+  .button_settings {
+    height: 34px;
+    position: relative;
+    bottom: 36px;
+    left: 254px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .input_position input {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .input_position input {
+    width: 400px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .input_position input {
+    width: 300px;
+    position: relative;
+    left: 220px;
+  }
+
+  .button_settings {
+    height: 35px;
+    position: relative;
+    left: 185px;
+    bottom: 34.4px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .input_position input {
+    width: 200px;
+    position: relative;
+    left: 220px;
+  }
+
+  .button_settings {
+    height: 36px;
+    position: relative;
+    left: 185px;
+    bottom: 34.4px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .input_position input {
+    width: 380px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+  }
+
+  .logo {
+    position: relative;
+    left: 42px;
+  }
+
+  .button_settings {
+    height: 36px;
+    position: relative;
+    left: 110px;
+    top: 23px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .input_position input {
+    width: 380px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+  }
+
+  .logo {
+    position: relative;
+    left: 35px;
+  }
+
+  .button_settings {
+    height: 35px;
+    position: relative;
+    left: 45px;
+    top: 32px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .input_position input {
+    width: 280px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+  }
+
+  .logo {
+    position: relative;
+    left: 35px;
+  }
+
+  .button_settings {
+    height: 37px;
+    position: relative;
+    left: 45px;
+    top: 33px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .input_position input {
+    width: 180px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+  }
+
+  .logo {
+    position: relative;
+    left: 15px;
+  }
+
+  .button_settings {
+    height: 36px;
+    position: relative;
+    left: 25px;
+    top: 33px;
+  }
+}

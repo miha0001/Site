@@ -1,0 +1,562 @@
+.text_position a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: grey;
+  margin-top: 10px;
+}
+
+.conpany {
+  color: rgb(13, 103, 177);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.text_position {
+  position: absolute;
+  top: 230%;
+  left: 7.5%;
+}
+
+.contacts {
+  color: rgb(13, 103, 177);
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.contacts_container {
+  position: absolute;
+  top: 230%;
+  left: 29.5%;
+}
+
+.link {
+  width: 0px;
+  padding: 18px;
+  margin-left: 10px;
+  border-radius: 50px;
+  background-color: rgb(206, 188, 188);
+  margin-top: 10px;
+}
+
+.link:hover {
+  background-color: rgb(78, 209, 154);
+}
+
+.contacts_container a {
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: 28px;
+  position: relative;
+  right: 12px;
+}
+
+.mail {
+  color: rgb(78, 209, 154);
+  font-weight: 600;
+}
+
+.subscribe {
+  color: rgb(13, 103, 177);
+  font-weight: 700;
+  font-size: 20 px;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.input_position {
+  position: absolute;
+  top: 230%;
+  left: 55%;
+}
+
+.input_control {
+  padding: 6px 12px;
+  background-color: rgb(238, 229, 233);
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(78, 209, 154);
+}
+
+.input_control:focus {
+  background-color: white;
+}
+
+.btn {
+  height: 29px;
+  padding: 13px;
+  position: relative;
+  bottom: 4px;
+  border: 0px;
+  border-bottom: 2px solid rgb(78, 209, 154);
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgb(78, 209, 154);
+}
+
+.lang_position {
+  position: absolute;
+  top: 230%;
+  left: 79%;
+}
+.lang_position select {
+  width: 180px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgb(13, 103, 177);
+  outline: none;
+}
+
+.secondary_information {
+  position: absolute;
+  left: 7.5%;
+  top: 260%;
+}
+
+.foot_txt {
+  position: relative;
+  left: 15px;
+  bottom: 20px;
+  font-size: 13px;
+}
+
+.m_heal {
+  color: rgb(13, 103, 177);
+  font-weight: 700;
+}
+
+.secondary_information a {
+  position: relative;
+  left: 210%;
+  bottom: 42px;
+  color: black;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+@media (min-width: 1500px) {
+  .text_position {
+    position: relative;
+    top: 300px;
+  }
+
+  .contacts_container {
+    position: relative;
+    top: 163px;
+  }
+
+  .input_position {
+    position: relative;
+    top: 24px;
+  }
+
+  .lang_position {
+    position: relative;
+    bottom: 53px;
+  }
+
+  .secondary_information {
+    position: relative;
+    top: 80px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 2057px;
+    bottom: 5px;
+  }
+}
+
+@media (min-width: 4100px) {
+  .text_position {
+    position: relative;
+    top: 500px;
+  }
+
+  .contacts_container {
+    position: relative;
+    top: 324px;
+  }
+
+  .input_position {
+    position: relative;
+    top: 164px;
+    left: 760px;
+  }
+
+  .btn {
+    position: relative;
+    top: -2px;
+  }
+
+  .lang_position {
+    position: relative;
+    top: 90px;
+    left: 1110px;
+  }
+
+  .secondary_information {
+    position: relative;
+    top: 280px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 3000px;
+    bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* bottom: -205px; */
+  }
+}
+
+@media (min-width: 3100px) {
+  .link_position {
+    position: relative;
+    right: 3030px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .main_container {
+    position: relative;
+    top: 950px;
+    right: 50px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 170px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+  .main_container {
+    position: relative;
+    top: 900px;
+    right: 90px;
+  }
+
+  .input_position {
+    position: relative;
+    top: 270px;
+    left: 700px;
+  }
+
+  .input_position .btn {
+    position: relative;
+    bottom: 3px;
+  }
+
+  .lang_position {
+    position: relative;
+    top: 220px;
+    left: 970px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 450px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 100px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .input_position {
+    position: relative;
+    left: 140px;
+  }
+
+  .lang_position {
+    position: relative;
+    left: 480px;
+    bottom: 75px;
+  }
+
+  .text_position {
+    position: relative;
+    top: 390px;
+    left: 135px;
+  }
+
+  .contacts_container {
+    position: relative;
+    top: 252px;
+    left: 480px;
+  }
+
+  .main_container {
+    position: relative;
+    top: 1120px;
+    left: 70px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 350px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+  .input_position {
+    position: relative;
+    left: 40px;
+  }
+
+  .lang_position {
+    position: relative;
+    left: 420px;
+    bottom: 75px;
+  }
+
+  .text_position {
+    position: relative;
+    top: 390px;
+    left: 35px;
+  }
+
+  .contacts_container {
+    position: relative;
+    top: 252px;
+    left: 420px;
+  }
+
+  .main_container {
+    position: relative;
+    top: 1120px;
+    left: 70px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  .input_position {
+    position: relative;
+    left: 40px;
+  }
+
+  .lang_position {
+    position: relative;
+    left: 410px;
+    bottom: 75px;
+  }
+
+  .text_position {
+    position: relative;
+    top: 390px;
+    left: 35px;
+  }
+
+  .contacts_container {
+    position: relative;
+    top: 252px;
+    left: 410px;
+  }
+
+  .main_container {
+    position: relative;
+    top: 820px;
+    left: 30px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+  .input_position {
+    position: relative;
+    left: 140px;
+    top: 330px;
+  }
+
+  .lang_position {
+    position: relative;
+    left: 160px;
+    top: 375px;
+  }
+
+  .text_position {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 270px;
+    left: 140px;
+  }
+
+  .contacts_container {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 292px;
+    left: 140px;
+  }
+
+  .main_container {
+    position: relative;
+    top: 1520px;
+    left: 30px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 850px;
+    left: 0px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 670px;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+  .input_position {
+    position: relative;
+    left: 140px;
+    top: 330px;
+  }
+
+  .lang_position {
+    position: relative;
+    left: 160px;
+    top: 375px;
+  }
+
+  .text_position {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 270px;
+    left: 140px;
+  }
+
+  .contacts_container {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 292px;
+    left: 140px;
+  }
+
+  .main_container {
+    position: relative;
+    top: 1450px;
+    left: -20px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 850px;
+    left: 30px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 700px;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  .input_position {
+    position: relative;
+    left: 140px;
+    top: 330px;
+  }
+
+  .lang_position {
+    position: relative;
+    left: 160px;
+    top: 375px;
+  }
+
+  .text_position {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 270px;
+    left: 140px;
+  }
+
+  .contacts_container {
+    text-align: center;
+    width: 200px;
+    position: relative;
+    top: 292px;
+    left: 140px;
+  }
+
+  .main_container {
+    position: relative;
+    top: 1420px;
+    left: -70px;
+  }
+
+  .secondary_information {
+    position: absolute;
+    top: 850px;
+    left: 90px;
+  }
+
+  .link_position {
+    position: relative;
+    right: 760px;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
